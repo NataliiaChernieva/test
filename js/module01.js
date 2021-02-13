@@ -51,7 +51,7 @@ console.log(stringInv);
 
 
 
-///задача. Написать скрипт
+///задача. Написать скрипт, который подсчитывает количество гласных в строке
 
 const ctr = 'jhdhgfuieriybcbcxvaceuin';
 let total = 0
