@@ -145,7 +145,7 @@
 //     console.log(message);
 
 
-// Задача 4. Напиши скрипт поиска самого маленького b самого большого числа в массиве,
+// Задача 4. Напиши скрипт поиска самого маленького i самого большого числа в массиве,
 //при условии что числа уникальные (не повторяются).
  
 // const numbers = [51, 18, 13, 24, 7, 85, 19];
@@ -258,15 +258,15 @@
 //- Обновить
 //
 
-const cards = [
-  'Карточка-1',
-  'Карточка-2',
-  'Карточка-3',
-  'Карточка-4',
-  'Карточка-5',
-];
+// const cards = [
+//   'Карточка-1',
+//   'Карточка-2',
+//   'Карточка-3',
+//   'Карточка-4',
+//   'Карточка-5',
+// ];
 
-console.table(cards);
+// console.table(cards);
 
 // //Удаление (по индексу), метод indexOf()
 // const cardToRemove = 'Карточка-3';
@@ -284,17 +284,54 @@ console.table(cards);
 // cards.splice(index, 0, cardToInsert);
 // console.table(cards);
 
-/*
- * Обновление (по индексу)
- */
-const cardToUpdate = 'Карточка-4';
-const index = cards.indexOf(cardToUpdate);
 
-console.log(index);
+//  * Обновление (по индексу)
+//  */
+// const cardToUpdate = 'Карточка-4';
+// const index = cards.indexOf(cardToUpdate);
 
-cards.splice(index, 1, 'Обновленная карточка-4');
+// console.log(index);
 
-console.table(cards);
+// cards.splice(index, 1, 'Обновленная карточка-4');
+
+// console.table(cards);
+
+//Задача.  Напиши скрипт, который возвращает самое длинное слово в этой строке.
+
+// const string = 'The quick brown fox jumped over the lazy dog';
+// const words = string.split(" ");
+// let longestWord = words[0];
+
+
+// console.log(words);
+// for (let word of words) {
+//     if (word.length > longestWord.length) {
+//     longestWord = word;
+//   }
+// }
+  
+//  console.log(longestWord); 
+
+
+function includes(array, value) {
+  // Пиши код ниже этой строки
+  for (let arr of array) {
+     return arr===value;
+  }
+  
+  //return false;
+
+
+   
+  // Пиши код выше этой строки
+}
+
+
+
+
+ 
+
+
 
 
 
